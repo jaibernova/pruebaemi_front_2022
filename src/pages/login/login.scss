@@ -1,0 +1,129 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.loginWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+input {
+  font-family: FontAwesome;
+
+}
+
+.loginLeft,
+.loginRight {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  h1 {
+    display: flex;
+    color: #1e2052;
+    justify-content: center;
+    font-family: Roboto;
+    margin: 3%;
+  }
+  h4 {
+    display: flex;
+    color: #1e2052;
+    justify-content: center;
+    font-family: Roboto;
+  }
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+
+.loginDesc {
+  font-size: 24px;
+}
+
+.loginBox{
+    height: 130px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginInput{
+
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #5ac4ab;
+    font-size: 11px;
+    padding-left: 20px;
+    display: flex;
+    margin: 2%;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+.loginButtons{
+  text-align: right;
+  color: #5ac4ab;
+  display: flex;
+
+  justify-content: right;
+}
+.loginButton{
+  align-items: right;
+  
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(90,196,171);
+    background: linear-gradient(180deg, rgba(90,196,171,1) 0%, rgba(21,21,108,1) 80%, rgba(21,21,108,1) 100%);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.loginButton:focus{
+  outline: none;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+}
+
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+}
+
+.loginRegisterButton{
+  align-items: right;
+  
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(90,196,171);
+    background: linear-gradient(180deg, rgba(90,196,171,1) 0%, rgba(21,21,108,1) 80%, rgba(21,21,108,1) 100%);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 1%
+}
